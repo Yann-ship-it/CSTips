@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <div className="min-h-screen text-white flex items-center justify-center px-4">
+    <div className="text-white flex items-center justify-center px-4">
       <div className="w-full max-w-2xl p-8 rounded-2xl bg-gray-900 shadow-lg">
         <h1 className="text-3xl font-bold mb-6 text-center">Contactez-nous</h1>
         <form className="space-y-6">

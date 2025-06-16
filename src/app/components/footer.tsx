@@ -3,51 +3,51 @@ import Image from 'next/image'
 
 function Footer() {
   return (
-    <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+    <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center pt-10 pb-10">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://github.com/Yann-ship-it/CSTips"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src="/github.svg"
+            alt="Github icon"
+            width={25}
+            height={25}
           />
-          Learn
+          Github
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://discordapp.com/users/283666199274061824"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+            src="/discord.svg"
+            alt="Discord icon"
+            width={25}
+            height={25}
           />
-          Examples
+          Discord
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://store.steampowered.com/app/730/CounterStrike_2/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+            src="/steam.svg"
+            alt="Steam icon"
+            width={25}
+            height={25}
           />
-          Go to nextjs.org →
+          Steam
         </a>
       </footer>
   )

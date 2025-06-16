@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen text-white flex items-center justify-center px-6">
+    <div className=" text-white flex items-center justify-center px-6">
       <div className="max-w-3xl text-center space-y-8">
         <h1 className="text-5xl md:text-6xl font-bold leading-tight">
           Bienvenue sur <span className="text-blue-500">CS2 Tactiques</span>

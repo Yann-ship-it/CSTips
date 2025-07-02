@@ -34,6 +34,12 @@ function Navbar() {
           Maps
         </Link>
         <Link
+          href="/skins"
+          className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
+        >
+          Skins
+        </Link>
+        <Link
           href="/contact"
           className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
         >
